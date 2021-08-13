@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Contact Us | Data Infuser</title>
+	<!-- Bootstrap CSS -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+	integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+	<link rel="stylesheet" href="contact-us.css">
+	<style>
+        .navbar .nav-item:hover .dropdown-menu {
+            display: block;
+        }
+
+        @media (max-width:993px) {
+
+            .getstarted-button {
+                margin-top: 10px;
+                margin-bottom: 20px;
+                text-align: right;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+	<!--nav bar-->
+	<header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light shadow" style="background-color: white;">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="logo.png" alt="" width="130"
+                        height="36" style="margin-bottom: 17px;"> </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Features</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Community</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="what_is_datainfuser.html" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Docs
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="what_is_datainfuser.html"">What is Data Infuser?</a></li>
+                            <li><a class=" dropdown-item" href="#">How to use?</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="contact-us.html">Contact Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Sign In</a>
+                        </li>
+
+                        <li class="getstarted-button" style="margin-left: 10px;">
+                            <a href="https://github.com/Data-Infuser" target="_blank"><button type="button" class="btn btn-dark"
+                                    style="width: 150px;">Get Started</button></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+	<main>
+		<h1>Contact Us</h1>
+		<p>Do you have any questions about Data Infuser?
+			<br>Send us a message here. We'd love to hear from you.
+		</p>
+	</main>
+	<!--contact form-->
+	<form action="thank-you.html">
+		
+		<div id="logo" class="icon-ic-drafts-24px"></div>
+		<input name="name" type="text" placeholder="Name" id="name" required />
+
+		<input name="email" type="email" placeholder="Email" id="email" required />
+
+		<textarea name="text" placeholder="Message" style="
+		padding-bottom: 94px;"></textarea>
+
+		<input type="submit" value="Send" id="button-blue" />
+	</form>
+	
+	<!--footer-->
+	<div class="container">
+        <footer class="row row-cols py-5 my-5 border-top" style="background-color: beige;">
+          <div class="col">
+            <div class="d-flex align-items-center mb-3 link-dark text-decoration-none">
+              <img src="promptech.png" alt="">
+            </div>
+            <p class="text-muted">
+              Name: Prompt Technology <br>
+              CEO: Jonghoon Chun, Ph.D. <br>
+              Address: Nonhyeon-ro, 81-gil 12, Gangnam-gu, Seoul <br>
+              (Yeoksam-dong, Jo & Lee Building) <br>
+              Contact: (t) 02-553-6441 (f) 02-553-6442 <br>
+              Email: promptech@promptech.co.kr <br>
+            </p>
+          </div>
+        </footer>
+	</div>
+	<link href="https://fontastic.s3.amazonaws.com/qXDGBpBG6AawYwtmYPpQBb/icons.css" rel="stylesheet">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+	integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+	crossorigin="anonymous"></script>
+</body>
+
+</html>
